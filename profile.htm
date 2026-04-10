@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<nav class="navbar">
+    <div class="navbar-left">
+        <a href="index.html" class="logo"><img src=" logo.png"></a>
+
+          <div class="search-box">
+             <img src=" search.png">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+
+
+    <div class="navbar-center">
+         <ul>
+            <li><a href="#" class="active-link"><img src=" home.png"><span>HOME</span></a></li>
+            <li><a href="#"><img src=" network.png"><span>MY NETWORK</span></a></li>
+            <li><a href="#"><img src=" jobs.png"><span>JOBS</span></a></li>
+            <li><a href="#"><img src=" message.png"><span>MESSAGING</span></a></li>
+            <li><a href="#"><img src=" notification.png"><span>NOTIFICATIONS</span></a></li>
+         </ul>
+    </div>
+    <div class="navbar-right"> 
+        <div class="online">
+            <img src=" user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+        </div>
+    </div>
+
+<!-- profile drop down menu ---------------->
+
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src=" user-1.png" alt="">
+            <div>
+                <h3>Ayush Gupta</h3>
+                <a href="#">See  your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+        <img src=" feedback.png" alt="">
+        <p>Give Feedback</p>
+        <span></span>
+    </a>
+        <a href="#" class="profile-menu-link">
+        <img src=" setting.png" alt="">
+        <p>Setting & Privacy</p>
+        <span></span>
+    </a>
+        <a href="#" class="profile-menu-link">
+        <img src=" display.png" alt="">
+        <p>Display & Acessibility</p>
+        <span></span>
+    </a>
+        <a href="#" class="profile-menu-link">
+        <img src=" logout.png" alt="">
+        <p>Logout</p>
+        <span></span>
+    </a>
+    </div>
+</div>
+
+</nav>
+<!-- -------navbar ends-------------  -->
+<div class="cantainer">
+    <div class="profile-main">
+        <div class="profile-cantainer">
+            <img src=" cover-pic.png" width="100%" >
+            <div class="profile-cantainer-inner">
+                <img src=" user-1.png" class="profile-pic" alt="">
+                <h1>Ayush  Gupta</h1>
+                <b>Web Devloper</b>
+                <p>INDIA &middot; <a href="#">Contact Info</a></p>
+            </div class="mutual-connection">
+            <img src=" user-2.png" alt="">
+            <span>1 mutual connecction:Orlando giggs</span>
+        </div>
+        <div class="profile-btn">
+            <a href="#" class="primary-btn"><img src=" connect.png" alt="">Connect</a>
+            <a href="#"><img src=" chat.png" alt="">Message</a>
+        </div>
+    </div>
+ </div>
+     <div class="profile-discription">
+        <h2>About</h2>
+        <p>Web Devlopment is journey to enhance and booost skills and to solve problems  with innovative ideas. </p>
+        <a href="#" class="see-more-link"> See more...</a>
+     </div>
+        <div class="profile-discription">
+            <h2>Experience</h2>
+            <div class="profile-desc-row">
+                <img src=" microsoft.png" alt="">
+                <div>
+                    <h3>Frontend Engineer</h3>
+                    <b> Microsoft &middot; Remote</b>
+                    <b>Feb 2021- present &middot; 3 years</b>
+                    <p>Logic building and innovative ideas creates  a good devlopers.</p><hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src=" google.png" alt="">
+                <div>
+                    <h3>Frontend Engineer</h3>
+                    <b> Google &middot; Remote</b>
+                    <b>Feb 2020- present &middot; 1 years</b>
+                    <p>Logic building and innovative ideas creates  a good devlopers.</p>
+                </div>
+            </div>
+            
+            <a href="#" class="experience-link">Show all Experiences <img src=" right-arrow.png" alt=""></a>
+        </div>
+        <div class="profile-discription">
+            <h2>Education</h2>
+            <div class="profile-desc-row">
+                <img src=" stanford.png" alt="">
+                <div>
+                    <h3>Stanford University</h3>
+                    <b>COMPUTER SCICENCE ENGINEERING</b>
+                    <B>2014-2018</B>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src=" north.png" alt="">
+                <div>
+                    <h3>North Western University</h3>
+                    <b>M.Tech</b>
+                    <B>2018-2020</B>
+                    <hr>
+                </div>
+            </div>
+            <div class="profile-desc-row">
+                <img src=" mit.png" alt="">
+                <div>
+                    <h3>MIT</h3>
+                    <b>P.hD</b>
+                    <B>2020-2022</B>
+                </div>
+            </div>
+        </div>
+
+<div class="profile-discription">
+    <h2>Skills</h2>
+    <a href="#"class="skills-btn">Leadership</a>
+    <a href="#"class="skills-btn">web Design</a>
+    <a href="#"class="skills-btn">Devlopment</a>
+    <a href="#"class="skills-btn">UI/UX</a>
+    <a href="#"class="skills-btn">Planning</a>
+    <a href="#"class="skills-btn">Python</a>
+    <a href="#"class="skills-btn">Frontend Devlopment</a>
+</div>
+<div class="profile-discription">
+    <h2>Languages</h2>
+    <a href="#"class="language-btn">English</a>
+    <a href="#"class="language-btn">Hindi</a>
+</div>
+
+    </div>
+    <div class="profile-sidebar"></div>
+</div>
+
+<script>
+    let profileMenu= document.getElementById("profileMenu");
+
+    function toggleMenu(){
+        profileMenu.classList.toggle("open-menu")
+    }
+</script>
+</body>
+</html>
